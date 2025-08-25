@@ -10,7 +10,7 @@ Saya adalah seorang Web Developer & UI/UX Designer yang aktif dalam dunia web de
 
 ## Proyek Unggulan
 - Aplikasi Pengelolaan Keuangan Pada Semi Barbbershop Berbasis Web()
-- Aplikasi Penjualan Pulsa Berbasis Web()
+- Aplikasi Penjualan Pulsa Berbasis Website()
 
 ## Kontak
 - LinkedIn: https://linkedin.com/in/ighnan-fieqry-zidane
