@@ -13,14 +13,26 @@ Saya adalah seorang **Web Developer** yang berfokus pada Full Stack Development 
 - Database: MySQL.
 - Tools: Git, VSCode, XAMPP, Figma.
 
+## Pengalaman
+### Staff IT - Puskesmas Kalimas - Januari - Maret 2024
+- Mengembangkan aplikasi web berbasis PHP dan MySQL untuk mempercepat proses administrasi obat.
+- Mendukung layanan pendaftaran pelanggan untuk kelancaran operasional.
+- Membuat materi promosi kesehatan dengan Canva untuk media cetak dan sosial.
+- Berkolaborasi aktif dengan tim dalam mendukung kegiatan puskesmas.
+
 ## Proyek Unggulan
 ### Aplikasi Pengelolaan Keuangan Berbasis Website
-Repository: (github.com/Ighnan/Projek-1)  
-Deskripsi: Aplikasi untuk memudahkan pengelolaan keuangan bisnis semi barbershop dengan fitur pencatatan transaksi dan laporan.
+Repository: (github.com/Ighnan/Projek-1)(https://github.com/Ighnan/Projek-1)
+Deskripsi: Aplikasi pengelolaan keuangan berbasis web yang dibangun menggunakan PHP dan framework Codeigniter dengan MySQL sebagai 
+database. Fitur utama meliputi modul pencatatan transaksi dan laporan. Bertanggung jawab dalam pengembangan frontend dan backend serta 
+optimasi query database untuk meningkatkan performa sistem hingga 30%.
 
 ### Aplikasi Penjualan Pulsa Berbasis Website
-Repository: (github.com/Ighnan/Proyek-2)  
-Deskripsi: Aplikasi untuk melakukan penjualan pulsa secara online dengan sistem pemilihan paket, proses pembayaran, dan laporan.
+Repository: (github.com/Ighnan/Projek-2)(https://github.com/Ighnan/Projek-2)
+Deskripsi: Aplikasi penjualan pulsa berbasis website yang dibangun menggunakan PHP dan MySQL dengan antarmuka front-end responsif 
+menggunakan HTML, CSS, dan JavaScript. Fitur utama meliputi pemilihan paket pulsa, proses pembayaran, dan pencatatan riwayat 
+transaksi secara real-time. Bertanggung jawab dalam pengembangan frontend dan backend serta optimasi query database untuk memastikan 
+performa sistem yang efisien.
 
 ## Kontak
 - LinkedIn: linkedin.com/in/ighnan-fieqry-zidane
