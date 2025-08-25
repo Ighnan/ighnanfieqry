@@ -1,5 +1,5 @@
 # Halo, saya Ighnan Fieqry Zidane!
-Saya adalah seorang Web Developer & UI/UX Designer yang aktif dalam dunia web development.
+Saya adalah seorang Web Developer yang aktif dalam dunia web development.
 
 ## Keahlian
 - Full Stack Development
