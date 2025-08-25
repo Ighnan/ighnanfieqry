@@ -34,6 +34,4 @@ Saya adalah seorang **Web Developer** yang berfokus pada Full Stack Development 
 - GitHub: github.com/Ighnan/ighnanfieqry
 - Email: ighnanfikri22@gmail.com
 
-
-
-Terima kasih sudah mengunjungi profil saya!
+### Terima kasih sudah mengunjungi profil saya!
