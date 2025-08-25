@@ -15,16 +15,17 @@ Saya adalah seorang **Web Developer** yang berfokus pada Full Stack Development 
 
 ## Proyek Unggulan
 ### Aplikasi Pengelolaan Keuangan Berbasis Website
-Repository: (https://github.com/Ighnan/Projek-1)  
+Repository: (github.com/Ighnan/Projek-1)  
 Deskripsi: Aplikasi untuk memudahkan pengelolaan keuangan bisnis semi barbershop dengan fitur pencatatan transaksi dan laporan.
 
 ### Aplikasi Penjualan Pulsa Berbasis Website
-Repository: (https://github.com/Ighnan/Proyek-2)  
+Repository: (github.com/Ighnan/Proyek-2)  
 Deskripsi: Aplikasi untuk melakukan penjualan pulsa secara online dengan sistem pemilihan paket, proses pembayaran, dan laporan.
 
 ## Kontak
-- LinkedIn: (https://linkedin.com/in/ighnan-fieqry-zidane)
-- GitHub: (https://github.com/ighnan/ighnanfieqry)
+- LinkedIn: linkedin.com/in/ighnan-fieqry-zidane
+- GitHub: github.com/ighnan/ighnanfieqry
+- Email: ighnanfikri22@gmail.com
 
 
 
