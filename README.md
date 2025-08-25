@@ -24,7 +24,7 @@ Deskripsi: Aplikasi untuk melakukan penjualan pulsa secara online dengan sistem 
 
 ## Kontak
 - LinkedIn: linkedin.com/in/ighnan-fieqry-zidane
-- GitHub: github.com/ighnan/ighnanfieqry
+- GitHub: github.com/Ighnan/ighnanfieqry
 - Email: ighnanfikri22@gmail.com
 
 
