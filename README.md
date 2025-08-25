@@ -9,7 +9,8 @@ Saya adalah seorang Web Developer & UI/UX Designer yang aktif dalam dunia web de
 - Tools: Git, VSCode, Xampp, Figma.
 
 ## Proyek Unggulan
-- [Portofolio Pribadi](https://ighnan/ighnanfieqry/)
+- Aplikasi Pengelolaan Keuangan Pada Semi Barbbershop Berbasis Web()
+- Aplikasi Penjualan Pulsa Berbasis Web()
 
 ## Kontak
 - LinkedIn: https://linkedin.com/in/ighnan-fieqry-zidane
