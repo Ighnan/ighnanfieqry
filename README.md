@@ -1,6 +1,5 @@
 # Halo, Saya Ighnan Fieqry Zidane!
-<img src="images/Foto Profil Saya.png" width="300"/>
-[Foto Profil Saya](https://github.com/user-attachments/assets/9a32d3c1-ca4f-42a9-88a5-ed2e503400bd)
+<img src="images/Foto Profil Saya.jpg" width="300"/>
 
 
 Saya adalah seorang **Web Developer** yang berfokus pada Full Stack Development dengan keahlian dalam HTML, CSS, JavaScript, PHP, Python, dan framework Codeigniter.
