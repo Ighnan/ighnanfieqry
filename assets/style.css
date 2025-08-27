@@ -50,6 +50,12 @@ nav ul li a:hover {
   color: #ffb703;
   transform: scale(1.1);
 }
+
+/* Judul dan deskripsi jarak rapat */
+#about h2 {
+  margin-bottom: 0.5rem;
+}
+
 main {
   max-width: 900px;
   margin: 2rem auto;
@@ -89,29 +95,35 @@ footer {
   width: 100%;
 }
 
-/* Penambahan untuk tata letak tentang saya dengan foto samping kanan */
+/* Penataan tentang saya dengan foto samping kanan dan tinggi mengikuti konten */
 .about-container {
   display: flex;
   gap: 1.5rem;
-  align-items: center;
+  align-items: stretch;
 }
 .about-text {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .about-photo {
   flex: 0 0 150px;
-  padding-top: 10px; /* Tambahan ruang di atas foto supaya rambut tidak terpotong */
+  display: flex;
+  align-items: center;
+  padding-top: 10px; /* Memberi ruang di atas foto */
 }
 .about-photo img {
-  width: 150px;
-  height: 150px;
+  width: auto;
+  height: 100%;
+  max-height: 150px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  margin-top: 10px; /* Memberi jarak tambahan untuk menjaga atas rambut */
+  margin-top: 10px;
 }
 
-/* Penambahan untuk penataan proyek dengan gambar di bawah judul */
+/* Proyek dengan gambar di bawah judul */
 .project-card {
   margin-bottom: 2rem;
 }
@@ -128,10 +140,17 @@ footer {
   .about-container {
     flex-direction: column;
     text-align: center;
+    align-items: center;
   }
   .about-photo {
+    padding-top: 0;
     margin-top: 1rem;
-    padding-top: 0; /* Hilangkan padding top pada view kecil agar tidak tambah spasi */
+    height: auto;
+  }
+  .about-photo img {
+    height: 150px;
+    max-height: none;
+    margin-top: 0;
   }
   .project-card img {
     max-width: 100%;
