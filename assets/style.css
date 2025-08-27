@@ -51,21 +51,18 @@ nav ul li a:hover {
   transform: scale(1.1);
 }
 
-/* Perbaikan jarak rapat judul dengan deskripsi */
 #about h2 {
-  margin-bottom: 0.3rem;
-  line-height: 1.2;
+  margin-bottom: 0.2rem;  /* Jarak sangat rapat ke deskripsi */
 }
 
-/* Layout untuk bagian tentang saya */
 .about-container {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center; /* Foto dan teks rata tengah vertikal, foto tidak mengikuti tinggi teks */
+  margin-top: 0;  /* Tidak ada jarak tambahan di atas container */
 }
-.about-text {
-  flex: 1;
+
+.about-text p:first-child {
+  margin-top: 0;  /* Hilangkan margin atas paragraf pertama */
 }
+
 .about-photo {
   flex: 0 0 150px;
   padding-top: 10px; /* Memberi ruang di atas foto supaya tidak memotong rambut */
