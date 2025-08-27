@@ -88,3 +88,53 @@ footer {
   transition: background-color 0.3s ease;
   width: 100%;
 }
+
+/* Penambahan untuk tata letak tentang saya dengan foto samping kanan */
+.about-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-photo {
+  flex: 0 0 150px;
+}
+
+.about-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Penambahan untuk penataan proyek dengan gambar di bawah judul */
+.project-card {
+  margin-bottom: 2rem;
+}
+
+.project-card img {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 0.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-photo {
+    margin-top: 1rem;
+  }
+  .project-card img {
+    max-width: 100%;
+  }
+}
