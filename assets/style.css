@@ -51,11 +51,35 @@ nav ul li a:hover {
   transform: scale(1.1);
 }
 
-/* Judul dan deskripsi jarak rapat */
+/* Perbaikan jarak rapat judul dengan deskripsi */
 #about h2 {
   margin-bottom: 0.5rem;
+  line-height: 1.2;
 }
 
+/* Layout untuk bagian tentang saya */
+.about-container {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center; /* Foto dan teks rata tengah vertikal, foto tidak mengikuti tinggi teks */
+}
+.about-text {
+  flex: 1;
+}
+.about-photo {
+  flex: 0 0 150px;
+  padding-top: 10px; /* Memberi ruang di atas foto supaya tidak memotong rambut */
+}
+.about-photo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 10px;
+}
+
+/* Layout main dan section */
 main {
   max-width: 900px;
   margin: 2rem auto;
@@ -85,6 +109,8 @@ section:hover {
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
   transform: translateY(-4px);
 }
+
+/* Styling footer */
 footer {
   flex-shrink: 0;
   text-align: center;
@@ -95,35 +121,7 @@ footer {
   width: 100%;
 }
 
-/* Penataan tentang saya dengan foto samping kanan dan tinggi mengikuti konten */
-.about-container {
-  display: flex;
-  gap: 1.5rem;
-  align-items: stretch;
-}
-.about-text {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.about-photo {
-  flex: 0 0 150px;
-  display: flex;
-  align-items: center;
-  padding-top: 10px; /* Memberi ruang di atas foto */
-}
-.about-photo img {
-  width: auto;
-  height: 100%;
-  max-height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  margin-top: 10px;
-}
-
-/* Proyek dengan gambar di bawah judul */
+/* Layout proyek dengan gambar di bawah judul */
 .project-card {
   margin-bottom: 2rem;
 }
@@ -143,14 +141,8 @@ footer {
     align-items: center;
   }
   .about-photo {
-    padding-top: 0;
     margin-top: 1rem;
-    height: auto;
-  }
-  .about-photo img {
-    height: 150px;
-    max-height: none;
-    margin-top: 0;
+    padding-top: 0;
   }
   .project-card img {
     max-width: 100%;
