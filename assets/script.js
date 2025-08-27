@@ -1,8 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
   const sections = document.querySelectorAll('section');
   
-  // Fungsi scroll untuk toggle kelas 'show' berdasarkan posisi scroll,
-  // hanya berlaku pada section yang sedang tampil
   function showSectionOnScroll() {
     const triggerBottom = window.innerHeight / 5 * 4;
     sections.forEach(section => {
@@ -17,7 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Fungsi untuk klik menu: menampilkan section target saja
   document.querySelectorAll('nav ul li a').forEach(link => {
     link.addEventListener('click', function(event) {
       event.preventDefault();
@@ -36,7 +33,5 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   window.addEventListener('scroll', showSectionOnScroll);
-
-  // Inisialisasi efek scroll reveal untuk section awal (tentang saya)
   showSectionOnScroll();
 });
