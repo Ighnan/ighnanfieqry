@@ -51,29 +51,45 @@ nav ul li a:hover {
   transform: scale(1.1);
 }
 
-#about h2 {
-  margin-bottom: 0.2rem;  /* Jarak sangat rapat ke deskripsi */
-}
-
 .about-container {
-  margin-top: 0;  /* Tidak ada jarak tambahan di atas container */
+  display: flex;
+  gap: 2rem;
+  align-items: center;
 }
 
-.about-text p:first-child {
-  margin-top: 0;  /* Hilangkan margin atas paragraf pertama */
+.about-text {
+  flex: 1;
 }
 
 .about-photo {
   flex: 0 0 150px;
-  padding-top: 10px; /* Memberi ruang di atas foto supaya tidak memotong rambut */
+  display: flex;
+  justify-content: center;
 }
+
 .about-photo img {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  margin-top: 10px;
+  background: #fff;
+}
+
+#about h2 {
+  margin-bottom: 0.3rem;
+}
+
+/* Responsif layar kecil */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-photo img {
+    width: 120px;
+    height: 120px;
+  }
 }
 
 /* Layout main dan section */
